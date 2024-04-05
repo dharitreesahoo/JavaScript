@@ -1,6 +1,9 @@
-function greet()
+//it can be hoisted means it  can be called before even declaration
+let mul = myfunc(2,3)
+console.log(mul);
+
+function myfunc(a, b)
 {
-    return "Hello world"
+    return a*b;
 }
-let usr= greet();
-console.log(usr)
+
